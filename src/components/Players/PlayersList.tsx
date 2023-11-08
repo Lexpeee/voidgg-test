@@ -32,9 +32,6 @@ const PlayersListComponent = () => {
 
   return (
     <Grid>
-      <button
-        onClick={()=>console.log(board)}
-      > asdfawt</button>
       {size(players) > 0 && 
         <InfiniteScroll
           dataLength={size(players)}

@@ -34,10 +34,6 @@ const PlayerMatchList = ({
   const [matches, setMatches] = useState([])
 
   useEffect(()=>{
-    console.log(matches)
-  }, [matches])
-
-  useEffect(()=>{
     if (matchesData) {
       setMatches(matchesData?.data)
     }

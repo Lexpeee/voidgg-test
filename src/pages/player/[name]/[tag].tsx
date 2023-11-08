@@ -70,7 +70,7 @@ const PlayerPage:FC = () => {
           
         </Grid.Col>
         <Grid.Col span={9}>
-          <Title>Matches</Title>
+          <span><Title>Matches <Text>Recent 5 games</Text></Title></span>
           {name && tag && 
             <PlayerMatchList
               name={name}
